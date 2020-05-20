@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Проект</title>
+	<link rel="icon" href="img/favicon.png">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="libs/owl-carousel/owl.carousel.min.css">
+	<link rel="stylesheet" href="libs/owl-carousel/owl.theme.default.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+	<link rel="stylesheet" href="css/main.min.css">
+</head>
+<body>
+
+	<header class="header">
+		<div class="header__top">
+			<a href="/" class="logo"><img src="img/logo.png" alt="KSU"></a>
+			<div class="nav">
+				<div class="nav__left">
+					<a href="#" class="nav__link">Портал</a>
+					<a href="#" class="nav__link">Блог ректора</a>
+				</div>
+				<div class="nav__right">
+					<div class="private nav__link">
+						<span>Личный кабинет</span>
+						<div class="private__dropdown">
+							<a href="#">Cтудента / магистранта</a>
+							<a href="#">Преподавателя</a>
+							<a href="#">Эдвайзера</a>
+						</div>
+					</div>
+					<button class="nav__search nav__link"><img src="/img/icons/header/search.svg" alt="search"></button>
+					<div class="nav__lang nav__link">
+						<a href="#">Kz</a>
+						<span>/</span>
+						<a href="#">Ru</a>
+					</div>
+					<div class="burger">
+						<div class="burger__button">
+							<span></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="flex-w">
+			<div class="header__left">
+				<div class="header__left-line">
+					<img src="/img/header-line.png" alt="text-line">
+				</div>
+				<div class="mouse">
+					<span>Новости</span>
+					<div class="mouse__img">
+						<img src="/img/icons/header/mouse.svg" alt="down-news">
+					</div>
+				</div>
+			</div>
+			<div class="header__content header-slider owl-carousel">
+				<div class="header-slider__item">
+					<div class="header-slider__left">
+						<div class="header-slider__title">
+							<span>Университет имени <br>Ахмета Байтурсынова</span>
+						</div>
+					</div>
+					<div class="header-slider__right">
+						<div class="header-slider__image" style="background: url(/img/slider-bg.jpg);">
+							<video class="header-slider__video" width="100%" height="100%" controls="controls" poster="video/duel.jpg">
+								<source src="video/duel.ogv" type='video/ogg; codecs="theora, vorbis"'>
+								<source src="video/ksu.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+								<source src="video/duel.webm" type='video/webm; codecs="vp8, vorbis"'>
+								Тег video не поддерживается вашим браузером!	
+							 </video>
+							<div class="header-slider__play"></div>
+						</div>
+					</div>
+				</div>
+				<div class="header-slider__item">
+					<div class="header-slider__left">
+						<div class="header-slider__title">
+							<span>Тест</span>
+						</div>
+					</div>
+					<div class="header-slider__right">
+						<div class="header-slider__image" style="background: url(/img/slider-bg.jpg);">
+							<div class="header-slider__play"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header__right">
+				<div class="social">
+					<a href="#"><img src="/img/social/vk.svg" alt="Vk"></a>
+					<a href="#"><img src="/img/social/youtube.svg" alt="Youtube"></a>
+					<a href="#"><img src="/img/social/instagram.svg" alt="Instagram"></a>
+				</div>
+			</div>
+		</div>
+		<!-- <div class="header__bottom">
+			<div class="header-slider-dots">
+				<div class="header-slider-dots__item">01</div>
+				<div class="header-slider-dots__item">02</div>
+				<div class="header-slider-dots__item">03</div>
+				<div class="header-slider-dots__item">04</div>
+			</div>	
+		</div> -->
+	</header>
+	<script src="js/jquery.min.js"></script>
+	<script src="libs/owl-carousel/owl.carousel.min.js"></script>
+	<script src="js/common.js"></script>
+</body>
+</html>
